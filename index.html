@@ -4,38 +4,52 @@
     <meta charset="UTF-8">
     <title>Solo boostrap Project</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     
 </head>
 <body>
     <div class="container">
-       
+            <!-- box2 player 1 -->
+            <div class="player0-box">
 
-            <div class="player1-box">
+                <!-- first box info and score  -->
+                <div class="player-info" id="name-player0">Player 1</div>
+                <div class="player-score" id="score-player-0">500</div>
 
-                <div class="player1">Player 1</div>
-                <div class="player-score">500</div>
-
+                <!-- second box for score and info -->
                 <div class="current-score-player">
-                        <div class="current-label" id="label1">player 1</div>
-                        <div class="current" id = "2">100 </div>
+                        <div class="current-label" id="label0">player 1</div>
+                        <div class="current-score" id = "current-score0">100 </div>
                 </div>
 
             </div>
             <div class="dices">
-                dices
             </div>
-            <div class="player2-box">
+            <!-- box2 player 2 -->
+            <div class="player1-box">
 
-                <div class="player2">Player 2</div>
-                <div class="player-score">600</div>
-        
+                <!-- first box info player2  and score  -->
+                <div class="player-info" id="name-player1"> Player 2 </div>
+                <div class="player-score" id="score-player-1">600</div>
+
+                <!-- second box for score and info -->
                 <div class="current-score-player">
-                    <div class="current-label" id="label2">player 2</div>
-                    <div class="current" id = "1">100</div>
+                    <div class="current-label" id="label1">player 2</div>
+                    <div class="current-score" id = "current-score1">100</div>
                 </div>
 
             </div>
-            
+        <a href="#"><div>
+            <img src="./images/dice-6.png" alt="Dice" class="dice" id="dice-1">
+            <img src="./images/dice-6.png" alt="Dice" class="dice" id="dice-2">
+        </div></a>
+        
+
+        <button class="btn-new">New game</button>
+        <button class="btn-roll">Roll dice</button> <!-- to change on click -->
+        <button class="btn-hold">Hold</button>
+
+        <input type="text" placeholder="Final score" class="final-score">
     
         <!-- <section class="4 player">
             <div class="player3">Player 3</div>
