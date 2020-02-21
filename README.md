@@ -1,5 +1,5 @@
 # Solo-Project-Boostrap-RBK
-this is my first solo project
+this is my first javascript solo project
 
 The game has 2 players, playing in rounds
 - In each turn, a player rolls a dice as many times as he whishes. 
