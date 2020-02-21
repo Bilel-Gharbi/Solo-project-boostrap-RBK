@@ -6,3 +6,10 @@ The game has 2 players, playing in rounds
 - The first player to reach 50 points on GLOBAL score wins the game
 - Each result get added to his ROUND score
 - if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
+
+
+
+Used technologies:
+Javascript , jqery , css
+
+
